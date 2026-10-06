@@ -1,4 +1,4 @@
-type: fly
+type: flying
 name: Diver
 health: 7500
 speed: 3
@@ -17,10 +17,10 @@ weapons: [
       damage: 9
       speed: 8.0
       lifetime: 45
-      frontColor: 228b22
-      backColor: 004d00
-      width: 8
-      height: 12
+      frontColor: 7F00FF
+      backColor: FFFFFF
+      width: 13
+      height: 20
     }
   }
 ]
