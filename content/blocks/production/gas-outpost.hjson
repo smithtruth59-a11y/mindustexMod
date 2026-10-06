@@ -1,0 +1,18 @@
+type: GenericCrafter
+name: Gas Outpost
+description: Extracts and highly compresses massive volumes of Hydrogen gas directly from the atmosphere, Requires high power.
+health: 8500
+size: 5
+hasPower: true
+hasLiquids: true
+liquidCapacity: 640
+craftTime: 20
+consumePower: 8.5
+outputLiquid: hydrogen/75.0
+requirements: [
+  silicon/80
+  lead/160
+  copper/190
+]
+category: production
+research: mechanical-drill
