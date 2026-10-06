@@ -1,0 +1,6 @@
+name: "mindustex-mod"
+displayName: "Mindustex Mod"
+author: "smithtruth59-a11y"
+description: "Custom units for Mindustry."
+version: "1.0"
+minGameVersion: 146
