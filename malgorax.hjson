@@ -1,0 +1,21 @@
+type: mech
+name: Malgorax
+health: 950
+speed: 0.55
+hitSize: 14
+weapons: [
+  {
+    name: malgorax-blaster
+    reload: 35
+    x: 6.5
+    y: 1.5
+    shootSound: flame
+    bullet: {
+      type: LiquidBulletType
+      liquid: slag
+      damage: 42
+      speed: 4.5
+      lifetime: 35
+    }
+  }
+]
