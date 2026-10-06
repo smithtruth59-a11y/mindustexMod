@@ -1,0 +1,21 @@
+type: LaserTurret
+name: Biocell
+description: a bubonic infected turret that somehow works.
+health: 1200
+size: 3
+hasPower: true
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 68
+  length: 360
+  width: 15
+  lifetime: 250
+  colors: [ffffff, ffffff, ffffff, ffffff]
+}
+requirements: [
+  copper/25
+  lead/80
+  silicon/50
+]
+category: turret
+research: duo
