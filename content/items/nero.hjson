@@ -1,0 +1,9 @@
+name: Nero
+description: A dense, midnight-dark mineral pulled from deep crustal rifts. Radiates a faint, cold static charge.
+color: 1a1a24
+explosiveness: 0.1
+flammability: 0.0
+radioactivity: 0.4
+charge: 14.6
+hardness: 6
+cost: 4.5
