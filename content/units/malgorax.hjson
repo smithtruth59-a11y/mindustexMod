@@ -6,16 +6,18 @@ hitSize: 14
 weapons: [
   {
     name: malgorax-blaster
-    reload: 35
+    reload: 80
     x: 6.5
     y: 1.5
-    shootSound: flame
+    shootSound: laserbig
     bullet: {
-      type: LiquidBulletType
-      liquid: slag
-      damage: 42
-      speed: 4.5
-      lifetime: 35
+      type: ContinuousLaserBulletType
+      damage: 32
+      length: 145
+      width: 8
+      lifetime: 60
+      colors: [ff4500, ffaa00, ffffff, ffffff]
     }
   }
 ]
+Use code with caution.
