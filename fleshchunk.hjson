@@ -1,0 +1,9 @@
+name: Flesh Chunk
+description: I don't think you wanna eat this raw?
+color: 992222
+explosiveness: 0.0
+flammability: 0.25
+radioactivity: 0.0
+charge: 0.0
+hardness: 0.6
+cost: 1.0
