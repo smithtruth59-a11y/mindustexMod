@@ -4,6 +4,7 @@ health: 7500
 speed: 3
 hitSize: 0.5
 flying: true
+lowaltitude: true
 weapons: [
   {
     name: hyper bullet
