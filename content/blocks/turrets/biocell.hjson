@@ -1,6 +1,6 @@
 type: LaserTurret
 name: Biocell
-description: a bubonic infected turret that somehow works.
+description: a bubonic infected turret that somehow works
 health: 1200
 size: 3
 hasPower: true
@@ -10,7 +10,7 @@ shootType: {
   length: 360
   width: 15
   lifetime: 250
-  colors: [#4dff4d, #006400, #006400, 006500]
+  colors: [4dff4d, 006400, 006400, 006500]
 }
 requirements: [
   copper/25
