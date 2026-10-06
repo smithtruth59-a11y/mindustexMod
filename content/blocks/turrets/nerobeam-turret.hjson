@@ -1,0 +1,21 @@
+type: LaserTurret
+name: Nerobeam Turret
+description: Fires a concentrated, high-velocity laser beam fueled by dense Nero energy blocks.
+health: 1400
+size: 2
+hasPower: true
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 75
+  length: 190
+  width: 20
+  lifetime: 30
+  colors: [1a1a24, 4b0082, 00ffff, ffffff]
+}
+requirements: [
+  nero/75
+  silicon/40
+  lead/60
+]
+category: turret
+research: duo
