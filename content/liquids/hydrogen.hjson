@@ -1,0 +1,10 @@
+type: Liquid
+name: Hydrogen
+description: A highly flammable, pressurized atmospheric gas. Extremely light and explosive.
+color: e0f0ff
+barColor: b0d0ff
+flammability: 7.5
+explosiveness: 24.5
+temperature: 0.8
+viscosity: 0.4
+gas: true
