@@ -2,21 +2,21 @@ type: mech
 name: Riftex
 health: 950
 speed: 0.55
-hitSize: 14
+hitSize: 16
+legForwardLength: 0.8
+legPairStep: 2
 weapons: [
   {
     name: riftex-blaster
-    reload: 120
-    x: 6.5
+    reload: 350
+    x: 8.5
     y: 1.5
-    shootSound: laserbig
+    shootSound: laser
     bullet: {
-      type: ContinuousLaserBulletType
+      type: LaserBoltBulletType
       damage: 53
-      length: 145
-      width: 6
-      lifetime: 60
-      colors: [0000ff, 00ffff, ffffff, ffffff]
+      speed: 4.5
+      lifetime: 35
     }
   }
 ]
