@@ -1,0 +1,24 @@
+type: flying
+name: Void God
+health: 20000
+speed: 0.35
+hitSize: 45
+flying: true
+lowAltitude: false
+weapons: [
+  {
+    name: void-beam-cannon
+    reload: 120
+    x: 0
+    y: 4
+    shootSound: laserbig
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 120
+      length: 210
+      width: 25
+      lifetime: 90
+      colors: [ffffff, ffffff, ffffff, ffffff]
+    }
+  }
+]
