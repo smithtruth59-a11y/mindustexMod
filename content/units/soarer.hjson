@@ -1,0 +1,27 @@
+type: flying
+name: soarer
+health: 18000
+speed: 5.1
+hitSize: 25
+flying: true
+lowAltitude: true
+rotateSpeed: 4.5
+accel: 0.8
+drag: 0.05
+weapons: [
+  {
+    name: daphnia-pulse
+    reload: 5000
+    x: 0
+    y: 2
+    shootSound: sap
+    bullet: {
+      type: SapBulletType
+      damage: 600
+      length: 500
+      width: 20
+      sapPercent: 25
+      color: e0f0ff
+    }
+  }
+]
