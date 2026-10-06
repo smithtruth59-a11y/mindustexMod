@@ -1,0 +1,8 @@
+name: Biomass Fluid
+description: Liquefied organic tissue. Slimy, warm, and highly disgusting!
+color: 660000
+barColor: 990000
+flammability: 0.12
+temperature: 0.35
+viscosity: 0.8
+effect: bleeding
