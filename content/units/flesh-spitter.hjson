@@ -1,0 +1,31 @@
+type: legs
+name: Carnis Spitter
+health: 3500
+speed: 0.6
+hitSize: 2
+legCount: 6
+legLength: 25
+legExtension: 18
+legBaseOffset: 6
+legPairStep: 2
+legMoveSpace: 1.8
+legRegion: sprites/units/flesh-spitter-leg
+weapons: [
+  {
+    name: bio-spit-gland
+    reload: 25
+    x: 0
+    y: 3
+    shootSound: sap
+    bullet: {
+      type: BasicBulletType
+      damage: 32
+      speed: 4.0
+      lifetime: 45
+      frontColor: 228b22
+      backColor: 004d00
+      width: 8
+      height: 12
+    }
+  }
+]
