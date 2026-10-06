@@ -10,7 +10,7 @@ shootType: {
   length: 360
   width: 15
   lifetime: 250
-  colors: [ffffff, ffffff, ffffff, ffffff]
+  colors: [#4dff4d, #006400, #006400, 006500]
 }
 requirements: [
   copper/25
