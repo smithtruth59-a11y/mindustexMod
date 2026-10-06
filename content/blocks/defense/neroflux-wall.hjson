@@ -1,0 +1,12 @@
+type: Wall
+name: Neroflux Wall
+description: A defensive barrier reinforced with compressed Nero crystals. Electrically reactive; occasionally deflects damage back as arc lightning.
+health: 1200
+size: 1
+lightningChance: 0.12
+lightningDamage: 14
+requirements: [
+  nero/6
+]
+category: defense
+research: copper-wall
