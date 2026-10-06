@@ -1,0 +1,13 @@
+name: Bleeding
+damage: 0.25
+speedMultiplier: 0.85
+effect: {
+  type: ParticleEffect
+  particles: 5
+  length: 12
+  lifetime: 20
+  colorFrom: 990000
+  colorTo: 550000
+  sizeFrom: 2.5
+  sizeTo: 0
+}
