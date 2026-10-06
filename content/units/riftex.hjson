@@ -6,15 +6,17 @@ hitSize: 14
 weapons: [
   {
     name: riftex-blaster
-    reload: 35
+    reload: 120
     x: 6.5
     y: 1.5
-    shootSound: laser
+    shootSound: laserbig
     bullet: {
-      type: LaserBoltBulletType
-      damage: 42
-      speed: 4.5
-      lifetime: 35
+      type: ContinuousLaserBulletType
+      damage: 53
+      length: 145
+      width: 6
+      lifetime: 60
+      colors: [0000ff, 00ffff, ffffff, ffffff]
     }
   }
 ]
