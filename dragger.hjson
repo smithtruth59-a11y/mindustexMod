@@ -1,0 +1,27 @@
+type: crawl
+name: Dragger
+health: 3500
+speed: 0.22
+hitSize: 30
+omniMovement: false
+rotateSpeed: 1.2
+drawBody: true
+segments: 18
+segmentLength: 19.0
+weapons: [
+  {
+    name: dragger-jaws
+    reload: 15
+    x: 0
+    y: 4
+    shootSound: blunt
+    bullet: {
+      type: BasicBulletType
+      damage: 120
+      speed: 0
+      lifetime: 1
+      hitSize: 32
+      killShooter: false
+    }
+  }
+]
