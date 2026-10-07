@@ -6,8 +6,8 @@ hitSize: 30
 omniMovement: false
 rotateSpeed: 1.2
 drawBody: true
-segments: 18
-segmentLength: 19.0
+segments: 28
+segmentLength: 39.0
 weapons: [
   {
     name: dragger-jaws
