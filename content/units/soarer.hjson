@@ -11,7 +11,7 @@ drag: 0.05
 weapons: [
   {
     name: daphnia-pulse
-    reload: 5000
+    reload: 0.1
     x: 0
     y: 2
     shootSound: sap
