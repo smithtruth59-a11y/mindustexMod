@@ -1,0 +1,45 @@
+type: flying
+name: Fallen
+description: "A heavily armored combat unit that fires dual high-energy plasma beams."
+speed: 0.4
+health: 12000
+armor: 15
+hitSize: 25
+weapons: [
+  {
+    name: "red-beam-cannon-left"
+    x: -12 
+    y: 4
+    shootY: 8
+    reload: 45
+    mirror: false
+    alternate: false
+    shootSound: laser
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 55
+      length: 220
+      width: 6
+      lifetime: 60
+      colors: [ff4d4d77, ff1a1a, ffffffff]
+    }
+  }
+  {
+    name: "red-beam-cannon-right"
+    x: 12
+    y: 4
+    shootY: 8
+    reload: 65
+    mirror: false
+    alternate: false
+    shootSound: laser
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 25
+      length: 200
+      width: 2
+      lifetime: 20
+      colors: [ff4d4d77, ff1a1a, ffffffff]
+    }
+  }
+]
