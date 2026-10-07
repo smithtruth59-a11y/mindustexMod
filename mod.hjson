@@ -1,6 +1,7 @@
 name: "mindustex-mod"
-displayName: "Mindustex Mod"
+displayName: "Mindustex-Mod"
 author: "smithtruth59-a11y"
-description: "Custom units for Mindustry."
-version: "1.0"
+description: "A mindustry mod that sucks...alot.."
+version: "1.01"
 minGameVersion: 146
+hidder: false
