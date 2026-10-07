@@ -1,1 +1,26 @@
-
+type: flying
+name: Rivulet
+health: 3000
+speed: 1.5
+hitSize: 0.7
+flying: true
+lowAltitude: true
+weapons: [
+  {
+    name: hyper bullet
+    reload: 80
+    x: 0
+    y: 3
+    shootSound: blast
+    bullet: {
+      type: BasicBulletType
+      damage: 35
+      speed: 2.5
+      lifetime: 45
+      frontColor: 7F00FF
+      backColor: FFFFFF
+      width: 60
+      height: 60
+    }
+  }
+]
