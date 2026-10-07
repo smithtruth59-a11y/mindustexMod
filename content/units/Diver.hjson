@@ -8,7 +8,7 @@ lowAltitude: true
 weapons: [
   {
     name: hyper bullet
-    reload: 3
+    reload: 40
     x: 0
     y: 3
     shootSound: blast
