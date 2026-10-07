@@ -1,0 +1,16 @@
+type: CoreBlock
+name: Neobore
+description: "...?"
+size: 7
+health: 60000
+itemCapacity: 100000
+unitCapModifier: 30
+category: effect
+research: core-shard
+
+requirements: [
+  silicoin/5000
+  lead/1000
+]
+
+unitType: diver
