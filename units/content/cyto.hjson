@@ -1,0 +1,27 @@
+type: crawl           
+name: "Cyto Worm"
+description: "A small, segmented cyber-worm that slithers through defenses."
+speed: 1.2
+health: 350
+hitSize: 4            
+
+# WORM MECHANICS: This tells the game to chain body parts behind the head
+segments: 3           
+segmentScl: 3         
+
+weapons: [
+  {
+    name: "none"      
+    reload: 10
+    x: 0
+    y: 4
+    mirror: false
+    shootSound: sap
+    bullet: {
+      type: SapBulletType 
+      damage: 15
+      length: 12
+      sapPercent: 0.5
+    }
+  }
+]
